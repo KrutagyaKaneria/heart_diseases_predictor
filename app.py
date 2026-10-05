@@ -13,7 +13,7 @@ model = joblib.load(model_path)
 scaler = joblib.load(scaler_path)
 expected_columns = joblib.load(columns_path)
 
-st.title("Heart Stroke Prediction by akarsh")
+st.title("Heart Stroke Prediction")
 st.markdown("Provide the following details to check your heart stroke risk:")
 
 # Collect user input
